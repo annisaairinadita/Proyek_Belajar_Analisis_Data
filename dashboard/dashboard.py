@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 day_df = pd.read_csv('data_bersih_day.csv')
-hour_df = pd.read_csv('data_bersih_day.csv')
+hour_df = pd.read_csv('data_bersih_hour.csv')
 
 st.title("Bike Sharing Data Analysis Dashboard :bicyclist:")
 st.subheader("Analisis Data Penyewaan Sepeda")
